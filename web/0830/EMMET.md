@@ -102,3 +102,31 @@
     ```
 
     
+
+3. 속성 연산자(Attribute operators)
+
+   > id나 class 등 html 속성을 다룰 때 사용
+
+- ID와 Class: `#`,  `.` 
+
+  - `#`은 ID를, `.` 은 class를 지정할 때 사용
+
+  ```html
+  <!--div#header+div.page+div#footer.class1.class2.class3-->
+  
+  <div id="header"></div>
+  <div class="page"></div>
+  <div id="footer" class="class1 class2 class3"></div>
+  ```
+
+  
+
+4. 로렘 입숨 생성기(Loren Ipsum generator): `lorem`
+
+   > lorem을 입력해서 웹사이트 공간을 채우기 위한 무의미한 단락 덩어리 제공
+
+```html
+<!--lorem-->
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sunt temporibus quis reprehenderit fugiat, consectetur natus eius atque. Impedit aspernatur cupiditate nihil. Doloremque accusantium eaque exercitationem! Ullam odit deserunt maxime?
+```
+
