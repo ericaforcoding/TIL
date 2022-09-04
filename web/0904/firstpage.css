@@ -1,0 +1,34 @@
+.nav{
+    display: flex;
+    position: sticky;
+    height: 80px;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.banner-title{
+    font-size:xx-large;
+    font-weight:bold;
+}
+
+
+.aside{
+    width:20%
+}
+.aside-title{
+    list-style: none;
+    padding: 1rem;
+}
