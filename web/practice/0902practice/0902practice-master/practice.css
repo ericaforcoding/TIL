@@ -1,0 +1,106 @@
+.movie{
+    height: 60px;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    position: sticky;
+    height: 80px;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.banner{
+    background-image: url(../0902/images/background.jpg);
+    width: 100%;
+    height:320px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.banner-title{
+    font-size:xx-large;
+    font-weight:bold;
+}
+
+.aside{
+    width:20%
+}
+.aside-title{
+    list-style: none;
+    padding: 1rem;
+}
+.genre-title {
+    font-size:large;
+    font-weight:bold;
+}
+
+.outline{
+    display:flex;
+    flex-direction: row;
+}
+
+.실시간영화순위{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding:24px;
+    width:80%;
+    background-color: lightgray;
+
+
+}
+.movie-post{
+    width:300px;
+    border-radius: 5%;
+    
+}
+
+.영화순위{
+    align-items: center;
+}
+
+.movie-po{
+    flex-direction: column;
+    padding:24px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.movie-img{
+    display: flex;
+    flex-direction: row;
+}
+.foot{
+    height: 40px;
+    width: 100%;
+    background-color:black;
+    justify-content: flex-end;
+    position: sticky;
+    bottom: 0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.credit{
+    color: white;
+    font-weight:bold;
+}
