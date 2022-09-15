@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ p {
+        font-family: 'helvetica neue', helvetica, sans-serif;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        border: 2px solid rgba(0,0,200,0.6);
+        background: rgba(0,0,200,0.3);
+        color: rgba(0,0,200,0.6);
+        box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+        border-radius: 10px;
+        padding: 3px 10px;
+        display: inline-block;
+        cursor: pointer;
+      }
+</style>
+<body>
+    <p>Player 1: Chris</p>
+    <script> 
+
+    // 자바스크립트는 위->아래로 실행(인터프리터). 30, 32 코드 순서 변경시 TypeError: para is undefined
+    // 텍스트 문단을 선택
+    const para = document.querySelector('p');
+    // 이벤트 수신기를 부착. 사용자가 문단 클릭시 updateName() 코드블록 실행 
+    para.addEventListener('click', updateName);
+
+    //함수: 재사용 가능하도록 나눠놓은 코드블록
+    function updateName() {
+        //요청해서 받은 새로운 이름을 name 변수에 저장
+        //const: "블록 범위"의 상수를 선언. 상수의 값은 재할당, 재선언 불가
+        //사용자에게 새로운 이름 물어보고->문단에 삽입하여 화면 업데이트 
+        const  nam= prompt('Enter a new name');
+        para.textContent = `Player 1: ${name}`;
+}
+    </script>
+</body>
+</html>
