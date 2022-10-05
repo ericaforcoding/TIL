@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "8db4d4e29665a588",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e254dba28ae6991",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "django-url 별칭.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ce3261da8c7056cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "33be7d14620a9a92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9e4ba9fcdfb4885",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "505cda80f37e4b93",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ddeec2887632a42f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2c7863d72b521a56",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7df0bc55b2578ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98c4bdac41498fc9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "django-url 별칭.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3304971a2cee0a15",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "django-url 별칭.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "34defeac94a69057",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "35a80f1d31c27ef1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "django-url 별칭.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8e254dba28ae6991",
+  "lastOpenFiles": [
+    "django-install.md",
+    "django-error message.md",
+    "django-url 별칭.md",
+    "0802 TIL.md",
+    "1005.md",
+    "무제노트.md",
+    "django/0921.md",
+    "django/1004.md",
+    "django/0922.md",
+    "django/0927.MD"
+  ]
+}
