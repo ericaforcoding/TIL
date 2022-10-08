@@ -1,4 +1,4 @@
-태그: #django #error 
+~태그: #django #error 
 
 # 1. 가상환경 설치
 
@@ -119,6 +119,18 @@ path('articles/', include('articles.urls')) #articles 앱 단위에서 관리하
 ]
 ```
 
+- 혹은 installed_apps에 맞게 추가하였는지 확인
+- 뒤에 트레일링 컴마를 붙였는 지 확인할 것 
+
+```
+installed_apps =[
+    'articles', 
+
+]
+    
+
+
+```
 
 ## 1. 오류 메시지(TemplateDoesNotExist at /articles/)
 

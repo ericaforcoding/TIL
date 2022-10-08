@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HTML 태그.md",
+            "file": "1006.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML 태그.md",
+                "file": "1006.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML 태그.md",
+                "file": "1006.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML 태그.md"
+                "file": "1006.md"
               }
             }
           }
@@ -128,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8e254dba28ae6991",
+  "active": "a9e4ba9fcdfb4885",
   "lastOpenFiles": [
     "1005.md",
-    "HTML 태그.md",
-    "0711 TIL.md",
-    "15.pyindex.png",
-    "무제노트.md",
+    "1006.md",
     "django/1004.md",
-    "JS/0919/0919.md",
+    "django/0927.MD",
+    "django/0921.md",
     "django/django-error message.md",
     "django/django-install.md",
+    "django/0922.md",
+    "web/HTML 태그.md",
     "django/django-url 별칭.md"
   ]
 }
