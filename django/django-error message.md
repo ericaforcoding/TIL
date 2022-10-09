@@ -174,4 +174,4 @@ updated_at = models.DateTimeField(auto_now=True)
 
 ## 2. 해결방안
 
-- models.CharField(MAX_LENGTH=20) 내 max_length가 소문자로 되어야 함
+- models.CharField(MAX_LENGTH=20) 내 max_length가 소문자로 되어야 함!! 
