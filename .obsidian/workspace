@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1006.md",
+            "file": "django/0921.md",
             "mode": "source",
             "source": false
           }
@@ -77,14 +77,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1006.md",
+                "file": "django/0921.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1006.md",
+                "file": "django/0921.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1006.md"
+                "file": "django/0921.md"
               }
             }
           }
@@ -125,20 +125,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "a9e4ba9fcdfb4885",
+  "active": "8e254dba28ae6991",
   "lastOpenFiles": [
-    "1005.md",
-    "1006.md",
-    "django/1004.md",
-    "django/0927.MD",
-    "django/0921.md",
-    "django/django-error message.md",
-    "django/django-install.md",
     "django/0922.md",
-    "web/HTML 태그.md",
-    "django/django-url 별칭.md"
+    "django/0921.md",
+    "0801 TIL.md",
+    "django/1012 TIL.md",
+    "django/django-error message.md",
+    "django/1011 TIL.md",
+    "0712TIL.md",
+    "map 설명.png",
+    "1006.md",
+    "1005.md"
   ]
 }
