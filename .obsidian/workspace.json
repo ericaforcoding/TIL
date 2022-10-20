@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2022-10-17.md",
+                "file": "1018 TIL.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2c7863d72b521a56",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-10-17.md",
+                "file": "1018 TIL.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-10-17.md",
+                "file": "1018 TIL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-10-17.md"
+                "file": "1018 TIL.md"
               }
             }
           }
@@ -141,15 +140,15 @@
   },
   "active": "8e254dba28ae6991",
   "lastOpenFiles": [
-    "1018 TIL.md",
     "2022-10-17.md",
+    "10 -20 til.md",
+    "1018 TIL.md",
     "django/Django App URL 매핑.md",
     "django/django-install.md",
     "django/django-url 별칭.md",
     "django/1013.md",
     "django/1012 TIL.md",
     "django/0921.md",
-    "django/0922.md",
-    "0801 TIL.md"
+    "django/0922.md"
   ]
 }
