@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4c6dde9a4a2b13ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1024 TIL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1018 TIL.md",
+                "file": "1024 TIL.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1018 TIL.md",
+                "file": "1024 TIL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1018 TIL.md"
+                "file": "1024 TIL.md"
               }
             }
           }
@@ -138,11 +151,11 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "8e254dba28ae6991",
+  "active": "4c6dde9a4a2b13ff",
   "lastOpenFiles": [
+    "1018 TIL.md",
     "2022-10-17.md",
     "10 -20 til.md",
-    "1018 TIL.md",
     "django/Django App URL 매핑.md",
     "django/django-install.md",
     "django/django-url 별칭.md",
