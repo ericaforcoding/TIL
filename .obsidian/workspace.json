@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1024 TIL.md",
+                "file": "2022-10-17.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81f9c7f647cf1425",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1025 TIL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 309.5,
+    "collapsed": true
   },
   "right": {
     "id": "2c7863d72b521a56",
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1024 TIL.md",
+                "file": "1025 TIL.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1024 TIL.md",
+                "file": "1025 TIL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1024 TIL.md"
+                "file": "1025 TIL.md"
               }
             }
           }
@@ -151,17 +164,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "4c6dde9a4a2b13ff",
+  "active": "81f9c7f647cf1425",
   "lastOpenFiles": [
-    "1018 TIL.md",
     "2022-10-17.md",
+    "django/1024 TIL.md",
+    "1018 TIL.md",
     "10 -20 til.md",
     "django/Django App URL 매핑.md",
     "django/django-install.md",
     "django/django-url 별칭.md",
     "django/1013.md",
     "django/1012 TIL.md",
-    "django/0921.md",
-    "django/0922.md"
+    "django/0921.md"
   ]
 }
