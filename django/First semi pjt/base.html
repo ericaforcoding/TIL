@@ -1,0 +1,8 @@
+<title>Soft Cream</title>
+{% bootstrap_css %}
+<link rel="shortcut icon" type="image/png" href="{% static 'images/shoes.png' %}"/>
+
+{% block css %}{% endblock css %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}?{% now 'U' %}">
+<!-- base html에 href="{% static 'css/style.css' %} 없어서 css 적용이 안 되었음  -->
+</head>
