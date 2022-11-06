@@ -1,0 +1,36 @@
+<!--페이스북, 트위터 아이콘에 공유하기 링크다는 법-->
+
+<!--실패-->
+{% load social_share %}
+{% post_to_facebook object_or_url "Post to Facebook!" %}
+<button type="button" class="btn btn-light">{% post_to_facebook post.get_absolute_url "Facebook" %}</button>
+
+<!--버튼 안에 a태그, href 태그 사용해도 안 됨-->
+
+
+<!--성공-->
+
+<div>
+    <a href="javascript:sendLinkFacebook()"><i class="bi bi-facebook"></i></a>
+</div>
+<div>
+    <a href="javascript:sendLinkTwitter()"><i class="bi bi-twitter"></i></a>
+</div>
+    <script>
+        function sendLinkFacebook(){
+var facebook_share_url = "https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri }}";
+window.open(facebook_share_url,
+        'Share on Facebook',
+        'scrollbars=no, width=500, height=500');
+} 
+
+function sendLinkTwitter(){
+var twitter_share_text="{{ post.title }}";
+var twitter_share_url="{{ request.build_absolute_uri }}";
+window.open("https://twitter.com/share?text="+twitter_share_text+"&url="+twitter_share_url,
+        'Share on Twitter',
+        'scrollbars=no, width=500, height=500');
+}
+    </script>
+</div>
+</div>
