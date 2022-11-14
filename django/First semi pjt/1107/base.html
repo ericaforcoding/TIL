@@ -1,0 +1,10 @@
+{% load humanize %}
+
+<div class='d-flex flex-column'>
+    <p class='p-0 mb-0 text-start fw-bold'>{{ article.user }}</p>
+    <p class='p-0 mb-0 fw-light'>{{  article.updated_at|date:'Y년 m월 d일 A h시 m분' }}</p>
+    <p class='p-0 mb-0 fw-light'>{{  article.updated_at|naturaltime }}</p>
+</div>
+
+<!--date:'Y년 m월 d일 A h시 m분'을 사용해서 시간 뒤에 나오던 '오후' 위치 수정
+이후 naturaltime으로 좀 더 인스타그래머블한 느낌을 내줬다 -->

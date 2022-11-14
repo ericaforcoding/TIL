@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+{% load static %}
+
+{% block css %}
+{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+<style>
+
+/* 카드 아티클 ellipsis 해결
+처음엔 card-body라는 div에 주려고 했는데, 실패해서 card-article이라는 <P>에 하게 됨
+width/text-overflow/overflow 3개 필수
+단문인 경우 overflow: hidden; white-space: nowrap; 필수
+<span>인 경우 display block  추가
+단문이 아닌 경우 display: -webkit-box; 이용
+-webkit-line-clamp: 1;로 하니까 첫번째 줄에서 ellipsis가 나와서 해결! */
+
+.card-article{
+    width: 120px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient:vertical;
+  cursor: pointer;
+  
+}
+
+</style>
+
+<div class="card-body">
+    <div class="d-flex align-items-center">
+
+        <div class='me-3' onclick='location.href="{% url 'accounts:mypage' article.user.pk %}"' style='cursor: pointer;'>
+            {% if article.user.profile.image %}
+            <img src="{{ article.user.profile.image.url }}" alt="" style='width:5rem; height:5rem' class='rounded-circle'>
+            {% else %}
+            <img src="{% static 'profile/guest.jpg' %}" style='width:5rem; height:5rem' class='rounded-circle'>
+            {% endif %}     
+            <h5 class="card-title">{{ article.user.username }}</h5>
+            <P class="card-article">{{ article.content }}</P>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="slide-container swiper">
+    <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+        
+
+        {% if lookbook_articles %}
+        {% for article in lookbook_articles %}
+
+        <!--웹사이트 크기 변경시 카드와 이미지 사이에 공백이 생김 border-0으로 해결-->
+            <div class="card swiper-slide border border-0">
+                    <a href="{% url 'articles:detail' article.pk %}">
+                        
+                        {% if article.articles_image.count %}
+                        {% for img in article.articles_image.all %}
+                        {% if forloop.counter == 1 %}
+                        <img src="{{img.image.url}}" alt="{{ img.image }}" style="width:200px; height:246px;"  class='rounded-4'>
+
+                        {% endif %}
+                            {% endfor %}
+                            {% else %}
+                            <img src="{% static 'images/6c757d.jpg' %}" alt="빈이미지" style="width:200px; height:246px;" class='rounded-4' >
+                            {% endif %}
+                    </a>
+                            
+                    <a href="{% url 'accounts:mypage' article.user.pk %}">
+                        {% if article.user.profile.image %}
+                        <img src="{{ article.user.profile.image.url }}" alt="" style='width:3rem;height:3rem;position:absolute;top:3px;left:3px' class='rounded-circle'>
+                        {% else %}
+                        <img src="{% static 'profile/guest.jpg' %}" alt="" style='width:3rem;height:3rem;position:absolute;top:3px;left:3px' class='rounded-circle'>
+                        {% endif %}
+                    </a>
+            </div>
+        {% endfor %}
+        {% endif %}
+        </div>
+    </div>
+
+    
