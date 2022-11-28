@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b270802001fed651",
+        "id": "f471c908caff6a3b",
         "type": "tabs",
         "children": [
           {
-            "id": "50dc4fc9bb20be7a",
+            "id": "85296e16b5d63519",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "django/Second semi pjt/KDT 2nd Semi PJT 발표대본.md",
+                "file": "JS/UDEMY/무제파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5
+    "width": 283.5
   },
   "right": {
     "id": "2c7863d72b521a56",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "django/Second semi pjt/KDT 2nd Semi PJT 발표대본.md",
+                "file": "JS/UDEMY/무제파일.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "django/Second semi pjt/KDT 2nd Semi PJT 발표대본.md",
+                "file": "JS/UDEMY/무제파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "django/Second semi pjt/KDT 2nd Semi PJT 발표대본.md"
+                "file": "JS/UDEMY/무제파일.md"
               }
             }
           }
@@ -135,17 +135,17 @@
     "direction": "horizontal",
     "width": 100
   },
-  "active": "a9e4ba9fcdfb4885",
+  "active": "85296e16b5d63519",
   "lastOpenFiles": [
+    "1126 FINAL PJT.md",
+    "Final PJT.md",
+    "django/First semi pjt/softcream READ.MD.md",
+    "django/Second semi pjt/Java Chip READ.MD.md",
     "django/Second semi pjt/1117_signup_error.md",
     "1018 TIL.md",
     "1026 TIL.md",
     "데이터 전처리.md",
     "1025 TIL.md",
-    "2022-10-17.md",
-    "django/1024 TIL.md",
-    "10 -20 til.md",
-    "django/Django App URL 매핑.md",
-    "django/django-install.md"
+    "2022-10-17.md"
   ]
 }
