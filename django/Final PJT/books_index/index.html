@@ -1,0 +1,22 @@
+<!-- 문제 상황: 인덱스에 있는 검색창의 autocomplete가 동작하지 않음-->
+<!-- 원인 분석 1. JQuery 중복
+2. 자바스크립트는 오류 발생 시 오류 발생 코드부터 읽지 않음 
+->해당 autocomplete 함수를 findme div 안에 배치하여 해결함 -->
+
+<!-- Book-index-End -->
+<div class="findme" style="width:auto; height:400px;">
+    <!-- 검색목록 -->
+  <script>
+    $( function() {
+      var availableTags = [
+          {% for book in books %}
+              "{{book.bookname}}",
+          {% endfor %}
+      ];
+      $( "#q" ).autocomplete({
+        source: availableTags
+      });
+    } );
+  </script>
+  
+  </div>

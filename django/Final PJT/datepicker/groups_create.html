@@ -1,0 +1,24 @@
+<!-- 모임 수정시 기존 입력했던 날짜값 조회 불가 -->
+
+<!-- 장고와 JS 숫자형이 달라서 NaN 발생-->
+<!-- 해결 방안: placeholder에 작성 후 if문-->
+<div class="mb-3">
+    <label class="form-label" for="id_end_date">모집 마감일</label>
+    {% if group.end_date %}
+      <input type="text" name="end_date" class="datetimepick form-control" placeholder="기존 날짜:{{ group.end_date }}" required="" id="id_end_date"
+       autocomplete="off"> 
+    {% else %}
+      <input type="text" name="end_date" class="datetimepick form-control" placeholder="모집 마감일을 입력해주세요." required="" id="id_end_date"
+       autocomplete="off">
+    {% endif %}
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="id_meeting_date">모임 날짜</label>
+    {% if group.meeting_date %} 
+      <input type="text" name="meeting_date" class="datetimepick form-control" placeholder="기존 날짜:{{ group.meeting_date }}" required="" id="id_meeting_date"
+       autocomplete="off">
+    {% else %}
+      <input type="text" name="meeting_date" class="datetimepick form-control" placeholder="독서모임 날짜를 입력해주세요." required="" id="id_meeting_date"
+       autocomplete="off">
+    {% endif %}
+  </div>

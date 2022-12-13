@@ -1,0 +1,117 @@
+
+<!--기존 달력 -->
+ <script>
+    $("#id_meeting_date").datepicker({
+        language: 'ko',
+        timepicker: true,
+        timeFormat: "hh:ii",
+        minDate: new Date(),
+    });
+  </script>
+  <script>
+      $("#id_end_date").datepicker({
+          language: 'ko',
+          timepicker: true,
+          timeFormat: "hh:ii",
+          minDate: new Date(),
+      });
+  </script>
+
+
+<!--변경된 달력
+
+시작 달력 제한 :minDate: new Date()
+timeFormat: "hh:ii AA"로 작성시 문자열로 인식되어 오류 발생
+timeFormat: "hh:ii"로 기재하면 해결,
+-->
+
+
+<script>
+datePickerSet($("#id_end_date"), $("#id_meeting_date"), true); //다중은 시작하는 달력 먼저, 끝달력 2번째
+
+/*
+* 달력 생성기
+* @param sDate 파라미터만 넣으면 1개짜리 달력 생성
+* @example   datePickerSet($("#datepicker"));
+* 
+* 
+* @param sDate, 
+* @param eDate 2개 넣으면 연결달력 생성되어 서로의 날짜를 넘어가지 않음
+* @example   datePickerSet($("#datepicker1"), $("#datepicker2"));
+*/
+
+function datePickerSet(sDate, eDate, flag) {
+//시작 ~ 종료 2개 짜리 달력 datepicker	
+if (!isValidStr(sDate) && !isValidStr(eDate) && sDate.length > 0 && eDate.length > 0) {
+  var sDay = sDate.val();
+  var eDay = eDate.val();
+
+  if (flag && !isValidStr(sDay) && !isValidStr(eDay)) { //처음 입력 날짜 설정, update...			
+      var sdp = sDate.datepicker().data("datepicker");
+      sdp.selectDate(new Date(sDay.replace(/-/g, "/")));  //익스에서는 그냥 new Date하면 -을 인식못함 replace필요
+
+      var edp = eDate.datepicker().data("datepicker");
+      edp.selectDate(new Date(eDay.replace(/-/g, "/")));  //익스에서는 그냥 new Date하면 -을 인식못함 replace필요
+  }
+
+  //시작일자 세팅하기 날짜가 없는경우엔 제한을 걸지 않음
+  if (!isValidStr(eDay)) {
+      sDate.datepicker({
+          minDate: new Date(),
+          maxDate: new Date(eDay.replace(/-/g, "/")),
+          timepicker: true,
+          timeFormat: "hh:ii",
+      });
+  }
+  sDate.datepicker({
+      minDate: new Date(),
+      language: 'ko',
+      autoClose: true,
+      timepicker: true,
+      timeFormat: "hh:ii",
+      onSelect: function () {
+          datePickerSet(sDate, eDate);
+      }
+  });
+
+  //종료일자 세팅하기 날짜가 없는경우엔 제한을 걸지 않음
+  if (!isValidStr(sDay)) {
+      eDate.datepicker({
+        minDate: new Date(sDay.replace(/-/g, "/")),
+        timepicker: true,
+        timeFormat: "hh:ii",
+      });
+  }
+  eDate.datepicker({
+      language: 'ko',
+      autoClose: true,
+      timepicker: true,
+      timeFormat: "hh:ii",
+      onSelect: function () {
+          datePickerSet(sDate, eDate);
+      }
+  });
+
+  //한개짜리 달력 datepicker
+} else if (!isValidStr(sDate)) {
+  var sDay = sDate.val();
+  if (flag && !isValidStr(sDay)) { //처음 입력 날짜 설정, update...			
+      var sdp = sDate.datepicker().data("datepicker");
+      sdp.selectDate(new Date(sDay.replace(/-/g, "/"))); //익스에서는 그냥 new Date하면 -을 인식못함 replace필요
+  }
+
+  sDate.datepicker({
+      language: 'ko',
+      autoClose: true,
+      
+  });
+}
+
+function isValidStr(str) {
+  if (str == null || str == undefined || str == "")
+      return true;
+  else
+      return false;
+}
+}
+</script>
