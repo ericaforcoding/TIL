@@ -4,19 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "f471c908caff6a3b",
+        "id": "a834a5e454502b88",
         "type": "tabs",
         "children": [
           {
-            "id": "85296e16b5d63519",
+            "id": "64c8895ad29a61d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/UDEMY/무제파일.md",
+                "file": "깃:깃허브/깃 미러.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "44736464caa8b9cd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/UDEMY/무제파일.md",
+                "file": "깃:깃허브/깃 미러.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/UDEMY/무제파일.md",
+                "file": "깃:깃허브/깃 미러.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,27 +133,29 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/UDEMY/무제파일.md"
+                "file": "깃:깃허브/깃 미러.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 100,
+    "collapsed": true
   },
-  "active": "85296e16b5d63519",
+  "active": "64c8895ad29a61d4",
   "lastOpenFiles": [
-    "1126 FINAL PJT.md",
-    "Final PJT.md",
-    "django/First semi pjt/softcream READ.MD.md",
-    "django/Second semi pjt/Java Chip READ.MD.md",
-    "django/Second semi pjt/1117_signup_error.md",
-    "1018 TIL.md",
-    "1026 TIL.md",
-    "데이터 전처리.md",
-    "1025 TIL.md",
-    "2022-10-17.md"
+    "Final PJT 발표 대본(병진).md",
+    "FinalPJT 발표 대본.md",
+    "django/Final PJT/Team Docs/Final PJT.md",
+    "django/Final PJT/Team Docs/1126.md",
+    "디지털 독서 플랫폼 시장.md",
+    "책오 프로젝트 문구.md",
+    "django/Final PJT/Team Docs/1201.md",
+    "1208 오전 취업특강.md",
+    "FE STUDY 1주차.md",
+    "1202.md"
   ]
 }
