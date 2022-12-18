@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "깃:깃허브/깃 미러.md",
+                "file": "django/Final PJT/nginx/nginx.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "깃:깃허브/깃 미러.md",
+                "file": "django/Final PJT/nginx/nginx.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "깃:깃허브/깃 미러.md",
+                "file": "django/Final PJT/nginx/nginx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "깃:깃허브/깃 미러.md"
+                "file": "django/Final PJT/nginx/nginx.md"
               }
             }
           }
@@ -147,15 +147,15 @@
   },
   "active": "64c8895ad29a61d4",
   "lastOpenFiles": [
+    "django/Final PJT/nginx/nginfix2.png",
+    "django/Final PJT/nginx/nginx.md",
+    "깃:깃허브/깃 미러.md",
     "Final PJT 발표 대본(병진).md",
     "FinalPJT 발표 대본.md",
     "django/Final PJT/Team Docs/Final PJT.md",
     "django/Final PJT/Team Docs/1126.md",
     "디지털 독서 플랫폼 시장.md",
     "책오 프로젝트 문구.md",
-    "django/Final PJT/Team Docs/1201.md",
-    "1208 오전 취업특강.md",
-    "FE STUDY 1주차.md",
-    "1202.md"
+    "django/Final PJT/Team Docs/1201.md"
   ]
 }
