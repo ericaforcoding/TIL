@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "django/Final PJT/nginx/nginx.md",
+                "file": "PM/1226 서비스 기획자 커리어 마인드셋서비스 기획  프로세스 1회차.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bcfeb6ad4e749a5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PM/1226 서비스 기획자 커리어 마인드셋서비스 기획  프로세스 1회차.md",
                 "mode": "source",
                 "source": false
               }
@@ -27,7 +39,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "django/Final PJT/nginx/nginx.md",
+                "file": "PM/1226 서비스 기획자 커리어 마인드셋서비스 기획  프로세스 1회차.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "django/Final PJT/nginx/nginx.md",
+                "file": "PM/1226 서비스 기획자 커리어 마인드셋서비스 기획  프로세스 1회차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "django/Final PJT/nginx/nginx.md"
+                "file": "PM/1226 서비스 기획자 커리어 마인드셋서비스 기획  프로세스 1회차.md"
               }
             }
           }
@@ -145,8 +158,10 @@
     "width": 100,
     "collapsed": true
   },
-  "active": "64c8895ad29a61d4",
+  "active": "a9e4ba9fcdfb4885",
   "lastOpenFiles": [
+    "PM/1226 OT.md",
+    "PM/1226 서비스 기획자 커리어 마인드셋서비스 기획  프로세스 1회차.md",
     "django/Final PJT/nginx/nginfix2.png",
     "django/Final PJT/nginx/nginx.md",
     "깃:깃허브/깃 미러.md",
@@ -154,8 +169,6 @@
     "FinalPJT 발표 대본.md",
     "django/Final PJT/Team Docs/Final PJT.md",
     "django/Final PJT/Team Docs/1126.md",
-    "디지털 독서 플랫폼 시장.md",
-    "책오 프로젝트 문구.md",
-    "django/Final PJT/Team Docs/1201.md"
+    "디지털 독서 플랫폼 시장.md"
   ]
 }
