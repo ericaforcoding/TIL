@@ -62,9 +62,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c5c4bd5924823db0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PM/1228.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PM/1227.md",
+                "file": "PM/1228.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PM/1227.md",
+                "file": "PM/1228.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PM/1227.md"
+                "file": "PM/1228.md"
               }
             }
           }
@@ -182,17 +194,17 @@
     "width": 100,
     "collapsed": true
   },
-  "active": "a8984135cde69d38",
+  "active": "c5c4bd5924823db0",
   "lastOpenFiles": [
+    "PM/1227.md",
+    "PM/1228.md",
     "PM/블로그/Move vs. Scale.md",
     "스크린샷 2022-12-28 오후 4.59.18.png.md",
     "PM/블로그/무브12.png",
     "PM/블로그/스케일12.png",
     "스크린샷 2022-10-13 오후 1.57.36.png",
     "스크린샷 2022-10-13 오후 1.54.34.png",
-    "PM/1227.md",
     "무브12.png.md",
-    "PM/블로그/피그마 장점.md",
-    "PM/블로그/피그마무브스케일.png"
+    "PM/블로그/피그마 장점.md"
   ]
 }
