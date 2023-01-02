@@ -74,9 +74,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "66904acb79e3902d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PM/1231.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3baef859f959598c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0102.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -142,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PM/1228.md",
+                "file": "0102.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -159,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PM/1228.md",
+                "file": "0102.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PM/1228.md"
+                "file": "0102.md"
               }
             }
           }
@@ -194,8 +218,9 @@
     "width": 100,
     "collapsed": true
   },
-  "active": "c5c4bd5924823db0",
+  "active": "3baef859f959598c",
   "lastOpenFiles": [
+    "PM/1231.md",
     "PM/1227.md",
     "PM/1228.md",
     "PM/블로그/Move vs. Scale.md",
@@ -204,7 +229,6 @@
     "PM/블로그/스케일12.png",
     "스크린샷 2022-10-13 오후 1.57.36.png",
     "스크린샷 2022-10-13 오후 1.54.34.png",
-    "무브12.png.md",
-    "PM/블로그/피그마 장점.md"
+    "무브12.png.md"
   ]
 }
